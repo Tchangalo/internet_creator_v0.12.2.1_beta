@@ -118,7 +118,7 @@ Der _VyOS Creator_ und der _Fast Vyos Creator_ arbeiten beide insofern parallel,
 
 Es gibt drei Unterschiede zwischen dem normalen Modus des _VyOS Creators_ und dem Fast Modus des _Fast VyOS Creators_, nämlich erstens beim Reboot, zweitens bzgl. des Start Delays - den es im Fast Modus nicht gibt - und drittens in der Konfigurationsphase:
 
-Im ```vyos_fast.sh``` gibt es länger anhaltende Lastspitzen insbesondere in der ersten Start-Phase, der Upgrade-Phase und den Reboot-Phasen.
+Im ```create_vyos_fast.sh``` gibt es länger anhaltende Lastspitzen insbesondere in der ersten Start-Phase, der Upgrade-Phase und den Reboot-Phasen.
 
 Die langen Lastspitzen beim ersten Start und den Start-Teilen der Reboots ließen sich durch einen frei setzbaren _Start Delay_ kontrollieren, der in einer wählbar langen sleep-Phase am Ende jedes Loop-Durchlaufs besteht. Die Delaywerte werden in der GUI in Sekunden angegeben.
 
